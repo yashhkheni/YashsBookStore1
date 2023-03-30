@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\YashsBookStore.DataAccess\YashsBookStore.DataAccess.csproj" />
     <ProjectReference Include="..\YashsBookStore.Models\YashsBookStore.Models.csproj" />
+    <ProjectReference Include="..\YashsBookStore.Utility\YashsBookStore.Utility.csproj" />
   </ItemGroup>
 
 </Project>

@@ -77,3 +77,9 @@
 
 3:32PM
 >using YashsBookStore.Models.ViewModels; ADDED THIS TO HomeController
+
+3:38PM
+>In the Utility project, created a static details class called SD.cs
+>Modified the properties of the class
+>Added project reference to the main project
+>In the DataAccess project added project references to Models and Utility
