@@ -67,3 +67,7 @@
 2:33PM
 >Moved Models in to YashsBookStore.Models(deleted original)
 >Deleted the Migration folder and deleted default class files.
+
+3:24PM
+>Renamed the folder Model with ViewModels
+>Added Reference with DataAccess, and Models
