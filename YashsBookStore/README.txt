@@ -50,7 +50,8 @@
 >Created another Class Library called YashsBookStore.Utility
 
 3:32PM
->Follwing the Tutorial deleted the data folder and pasted to the .DataAccess and then ran the command> dotnet add package Microsoft.EntityFrameworkCore.SqlServer and then deleted the Migration folder.
+>Follwing the Tutorial deleted the data folder and pasted to the .DataAccess and then ran the command
+> dotnet add package Microsoft.EntityFrameworkCore.SqlServer and then deleted the Migration folder.
 >Now commiting to the github but before commiting the orignal i will be backing up my this project.
 
 3:50PM
@@ -62,3 +63,7 @@
 30th March 2023
 >Okay so as I expected I am facing some errors and since I was unable to resolve it , I will use my backed up files and will try again.
 >New Repository Created and Named as YashsBookStore1
+
+2:33PM
+>Moved Models in to YashsBookStore.Models(deleted original)
+>Deleted the Migration folder and deleted default class files.
