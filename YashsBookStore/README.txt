@@ -71,3 +71,9 @@
 3:24PM
 >Renamed the folder Model with ViewModels
 >Added Reference with DataAccess, and Models
+
+3:26PM
+>Was facing error .data which was being removed
+
+3:32PM
+>using YashsBookStore.Models.ViewModels; ADDED THIS TO HomeController

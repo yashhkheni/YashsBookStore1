@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using YashsBookStore.Models;
+using YashsBookStore.Models.ViewModels;
 
 namespace YashsBookStore.Controllers
 {
