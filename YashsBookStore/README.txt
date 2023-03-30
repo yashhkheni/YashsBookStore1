@@ -93,3 +93,6 @@ and saved all the files.
 >Added new Area called "Admin" in Areas folder
 >Done the files moving into here and there.
 >Deleted the Controllers Folder.
+
+7:43PM
+>Finally. Done with the Part-1 of the Assignment yet not finished. good grief.
