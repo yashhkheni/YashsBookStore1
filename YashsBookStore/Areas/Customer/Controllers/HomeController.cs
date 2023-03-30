@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 using YashsBookStore.Models;
 using YashsBookStore.Models.ViewModels;
 
-namespace YashsBookStore.Controllers
+namespace YashsBookStore.Area.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

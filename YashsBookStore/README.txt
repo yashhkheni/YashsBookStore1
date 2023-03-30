@@ -83,3 +83,8 @@
 >Modified the properties of the class
 >Added project reference to the main project
 >In the DataAccess project added project references to Models and Utility
+
+7:28PM
+>Added new Area to Area folder and named it as "Customer" and then changed the routes in startup.cs file
+>Moved the HomeController.cs to Customer>Controller folder and deleted data and model folder.
+and saved all the files.

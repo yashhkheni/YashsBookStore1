@@ -63,8 +63,9 @@ namespace YashsBookStore
                 endpoints.MapControllerRoute(
                     name: "default",
                     //Here is the default pattern
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
+                    //pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
+            endpoints.MapRazorPages();
             });
         }
     }
