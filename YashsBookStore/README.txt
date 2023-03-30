@@ -88,3 +88,8 @@
 >Added new Area to Area folder and named it as "Customer" and then changed the routes in startup.cs file
 >Moved the HomeController.cs to Customer>Controller folder and deleted data and model folder.
 and saved all the files.
+
+7:40PM
+>Added new Area called "Admin" in Areas folder
+>Done the files moving into here and there.
+>Deleted the Controllers Folder.
