@@ -33,8 +33,8 @@ namespace YashsBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>() //options => options.SignIn.RequireConfirmedAccount = true      removed
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
+            services.AddScoped<UnitOfWork, UnitOfWork>();
             services.AddRazorPages();
         }
 

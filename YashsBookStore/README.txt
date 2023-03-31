@@ -146,3 +146,16 @@ and saved all the files.
 >Added IUnitOfWork.cs and UnitOfWork.cs files and implemeted code to both file but while registering them in startyp.cs file facing an error
 	>services.AddScoped<IUnitOfWork, UnitOfWork>();
 	trying to fix this but before that i will commit the code...
+
+12:58PM
+>However, error was resolved after I removed the "I" from the above of UnitOfWrok seems like resolved for now
+>let us see if we face the error again in the future....
+
+1:01PM
+>Moving forward to 2.3 Category CRUD
+
+1:18PM
+>Created new Controller called CategoryController.cs
+>implemented the code and facing error under public CategoryController(IUnitOfWork unitOfWork)
+>Red line under the CategoryController
+>Dont know what it is but facing it error Now i am going to commit and will see if error gets resolved
