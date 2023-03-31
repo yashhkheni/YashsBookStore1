@@ -96,3 +96,13 @@ and saved all the files.
 
 7:43PM
 >Finally. Done with the Part-1 of the Assignment yet not finished. good grief.
+
+7:51PM
+>Moving forward to 2.1 Create DataBase
+
+8:07PM(Name of Migration Stamp)
+>Successfully Created the database and 
+>20230331000214_AddDefaultIdentityMigration
+
+8:15PM
+>Updated the database using update-database command
