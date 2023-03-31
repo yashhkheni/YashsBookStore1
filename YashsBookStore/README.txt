@@ -129,3 +129,15 @@ and saved all the files.
 9:45PM
 >Okay succeessfully Created the folder called "Repository" and inside of it created interface and another folder Irepostory and also implemented the code part
 >now going to modify the code and will see the changes.
+
+10:09PM
+>Modified the Repository.cs file and the IRepository.cs file
+>Moving ahead....
+
+10:47PM
+>created SP_CALL.CS FILE
+>By implemeting the code i am getting error on this line
+	public Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurename, DynamicParameters param = null)
+	under the List
+	>Now i am going to commit and save the work
+	will work on this after words....
