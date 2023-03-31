@@ -4,7 +4,7 @@ using System.Text;
 
 namespace YashsBookStore.Utility
 {
-    class SD
+    public static class SD
     {
     }
 }

@@ -106,3 +106,8 @@ and saved all the files.
 
 8:15PM
 >Updated the database using update-database command
+
+8:44PM
+>Exhausting this is taking a lot more than i thought.....
+>okay so finally i have ran the command like add-migration and updated the database.
+>and now i will commit all the changes to the branch....
