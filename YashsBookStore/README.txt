@@ -141,3 +141,8 @@ and saved all the files.
 	under the List
 	>Now i am going to commit and save the work
 	will work on this after words....
+
+12:52PM
+>Added IUnitOfWork.cs and UnitOfWork.cs files and implemeted code to both file but while registering them in startyp.cs file facing an error
+	>services.AddScoped<IUnitOfWork, UnitOfWork>();
+	trying to fix this but before that i will commit the code...
