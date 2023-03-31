@@ -159,3 +159,43 @@ and saved all the files.
 >implemented the code and facing error under public CategoryController(IUnitOfWork unitOfWork)
 >Red line under the CategoryController
 >Dont know what it is but facing it error Now i am going to commit and will see if error gets resolved
+
+1:25PM
+>As of now I am deleting the controller and going to paste the code of it here so that i can pick that up later
+                using Microsoft.AspNetCore.Mvc;
+                using System;
+                using System.Collections.Generic;
+                using System.Linq;
+                using System.Threading.Tasks;
+                using YashsBookStore.DataAccess.Repository.IRepository;
+
+
+                namespace YashsBookStore.Areas.Admin.Controllers
+                {
+                    [Area("Admin")]
+                    public class CategoryController : Controller
+                    {
+                        private readonly IUnitOfWork _unitOfWork;
+                        public CategoryController(IUnitOfWork unitOfWork)
+                        {
+                            _unitOfWork = unitOfWork;
+                        }
+                        public IActionResult Index()
+                        {
+                            return View();
+                        }
+
+                        // API Call
+                        #region API CALLs
+                        [HttpGet]
+                        public IActionResult GetAll()
+                        {
+                            // return NotFound();
+                            var allObj = _unitOfWork.Category.GetAll();
+                            return Json(new { data = allObj });
+                        }
+                        #endregion
+                    }
+                }
+
+>Facing error under category controller.....
