@@ -116,3 +116,7 @@ and saved all the files.
 
 8:49PM
 >Moving forward 2.2 Repository...
+
+10:12PM
+>Stuggling with the error and can not solve it.
+>will do rest of the work tomorrow...
