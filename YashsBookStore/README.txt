@@ -199,3 +199,9 @@ and saved all the files.
                 }
 
 >Facing error under category controller.....
+
+1:49PM
+>Putting all the errors aside Done the part of Category Now removing the code which has the error
+    >CategoryController.cs is half finished
+    >Startup.cs Removed the I from the UNITOFWORK
+>Now Commiting the code to the Repository
