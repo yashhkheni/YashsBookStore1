@@ -23,6 +23,15 @@ namespace YashsBookStore.Areas.Admin.Controllers
             return View();
         }
 
-        // API Call
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            // return NotFound();
+            var allObj = _unitOfWork.Category.GetAll();
+            return Json(new { data = allObj });
+        }
+        #endregion
+
     }
 }

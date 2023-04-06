@@ -205,3 +205,10 @@ and saved all the files.
     >CategoryController.cs is half finished
     >Startup.cs Removed the I from the UNITOFWORK
 >Now Commiting the code to the Repository
+
+6th April 2023
+2:05PM
+>Started Further working on project today reviewd the errors and finally i solved it
+    the error was actually inside of startup.cs file where we have implemented the line for addscope.
+
+>Added the Category page link to the dropdown page.

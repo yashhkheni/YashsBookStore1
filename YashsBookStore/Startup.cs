@@ -11,8 +11,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using YashsBookStore.DataAccess.Data;
+using YashsBookStore.DataAccess.Repository.IRepository;
 using YashsBookStore.DataAccess.Repository;
+using YashsBookStore.DataAccess.Data;
+
+
 
 namespace YashsBookStore
 {
@@ -34,7 +37,7 @@ namespace YashsBookStore
             services.AddDefaultIdentity<IdentityUser>() //options => options.SignIn.RequireConfirmedAccount = true      removed
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
-            services.AddScoped<UnitOfWork, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddRazorPages();
         }
 
