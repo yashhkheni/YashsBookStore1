@@ -210,5 +210,8 @@ and saved all the files.
 2:05PM
 >Started Further working on project today reviewd the errors and finally i solved it
     the error was actually inside of startup.cs file where we have implemented the line for addscope.
-
 >Added the Category page link to the dropdown page.
+
+3:07PM 
+>added category
+>readme update
