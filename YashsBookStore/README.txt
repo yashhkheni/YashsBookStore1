@@ -102,7 +102,7 @@ and saved all the files.
 
 8:07PM(Name of Migration Stamp)
 >Successfully Created the database and 
->20230331000214_AddDefaultIdentityMigration
+                                                                                                                                >20230331000214_AddDefaultIdentityMigration
 
 8:15PM
 >Updated the database using update-database command
