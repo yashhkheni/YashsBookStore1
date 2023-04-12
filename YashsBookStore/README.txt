@@ -215,3 +215,24 @@ and saved all the files.
 3:07PM 
 >added category
 >readme update
+
+1:35PM
+>facing the error while creating the category the error is
+    Microsoft.Data.SqlClient.SqlException: 'Cannot open database "YashsBookStorE" requested by the login. The login failed.
+    Login failed for user 'ACAD\W0816059'.'
+
+    > I tried to search with google with the error and here is what i found
+
+            connect to the "YashsBookStorE" database in Microsoft SQL Server.
+
+            The error message indicates that the login attempt for user 'ACAD\W0816059' has failed. This could be due to a variety of reasons such as incorrect username and/or password, lack of appropriate permissions for the user to access the database, or the database being offline or unavailable.
+
+            To troubleshoot this issue, you can try the following steps:
+
+            Double-check the username and password being used to log in to the database.
+            Ensure that the user has appropriate permissions to access the database.
+            Check if the database is online and available.
+            Verify the connection string being used to connect to the database.
+            If none of these steps resolve the issue, you may need to seek further assistance from your database administrator or technical support team.
+
+            >I think the problem is with the server side login creaditials.

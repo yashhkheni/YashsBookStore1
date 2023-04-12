@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using YashsBookStore.DataAccess.Repository;
 using YashsBookStore.DataAccess.Repository.IRepository;
-
+using YashsBookStore.Models;
 
 namespace YashsBookStore.Areas.Admin.Controllers
 {
@@ -21,6 +21,25 @@ namespace YashsBookStore.Areas.Admin.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+        public IActionResult Upsert(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                if (category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
+                   
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+
+            }
+            return View(category);
         }
 
         #region API CALLS
