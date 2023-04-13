@@ -216,6 +216,7 @@ and saved all the files.
 >added category
 >readme update
 
+12th April 2023
 1:35PM
 >facing the error while creating the category the error is
     Microsoft.Data.SqlClient.SqlException: 'Cannot open database "YashsBookStorE" requested by the login. The login failed.
@@ -236,3 +237,6 @@ and saved all the files.
             If none of these steps resolve the issue, you may need to seek further assistance from your database administrator or technical support team.
 
             >I think the problem is with the server side login creaditials.
+
+13th April 2023
+>Solved the error but now data is not reflacting to the database....

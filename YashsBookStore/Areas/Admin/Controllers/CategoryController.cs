@@ -29,7 +29,7 @@ namespace YashsBookStore.Areas.Admin.Controllers
                 if (category.Id == 0)
                 {
                     _unitOfWork.Category.Add(category);
-                   
+
                 }
                 else
                 {
@@ -42,13 +42,26 @@ namespace YashsBookStore.Areas.Admin.Controllers
             return View(category);
         }
 
-        #region API CALLS
+        
+        #region
         [HttpGet]
         public IActionResult GetAll()
         {
-            // return NotFound();
             var allObj = _unitOfWork.Category.GetAll();
-            return Json(new { data = allObj });
+            return Json(new { data = allObj});
+        }
+
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while Deleting"});
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete Successful"});
         }
         #endregion
 
