@@ -283,3 +283,10 @@ and saved all the files.
 >Running the command add-migration AddProductToDb
     >Was Getting an error because i have selected diffrent console.
     >but the product is now been added to the database.
+    >Timestamp
+                                                      20230414165921_AddProductToDb
+                                                      However, I reviewed the database there is no table exist named Product command ran successfully though.
+                                                      Moving forward
+    >Controller Added for produst and repositories as well
+    >js also been added
+    >Views also been created and navbar link added

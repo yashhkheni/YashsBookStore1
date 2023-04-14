@@ -10,8 +10,8 @@ using YashsBookStore.DataAccess.Data;
 namespace YashsBookStore.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230414164945_AddProductToDb")]
-    partial class AddProductToDb
+    [Migration("20230414170620_addValidationToProduct")]
+    partial class addValidationToProduct
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -4,6 +4,7 @@ using YashsBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using YashsBookStore.Models;
 
 namespace YashsBookStore.DataAccess.Repository
 {
@@ -15,11 +16,13 @@ namespace YashsBookStore.DataAccess.Repository
             _db = db;
             Category = new CategoryRepository(_db);
             CoverType = new CoverTypeRepository(_db);
+            Product = new ProductRepository(_db);
             SP_Call = new SP_Call(_db);
         }
 
         public ICategoryRepository Category { get; private set; }
         public ICoverTypeRepository CoverType { get; private set; }
+        public IProductRepository Product { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
         
