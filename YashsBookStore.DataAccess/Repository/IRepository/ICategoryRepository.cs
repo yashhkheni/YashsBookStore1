@@ -8,5 +8,7 @@ namespace YashsBookStore.DataAccess.Repository.IRepository
     public interface ICategoryRepository : IRepository<Category>
     {
         void Update(Category category);
+        void Add(CoverType coverType);
+        void Update(CoverType coverType);
     }
 }

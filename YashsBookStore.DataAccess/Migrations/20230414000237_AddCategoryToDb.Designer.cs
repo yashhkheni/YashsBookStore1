@@ -10,7 +10,7 @@ using YashsBookStore.DataAccess.Data;
 namespace YashsBookStore.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230331004329_AddCategoryToDb")]
+    [Migration("20230414000237_AddCategoryToDb")]
     partial class AddCategoryToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

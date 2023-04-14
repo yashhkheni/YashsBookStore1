@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20230413221929_AddDefaultIdentityMigration.cs" />
+    <Compile Remove="Migrations\20230413221929_AddDefaultIdentityMigration.Designer.cs" />
+    <Compile Remove="Migrations\20230414000101_AddCoverTypeToDb.cs" />
+    <Compile Remove="Migrations\20230414000101_AddCoverTypeToDb.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.32" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.32" />
@@ -18,6 +25,10 @@
   <ItemGroup>
     <ProjectReference Include="..\YashsBookStore.Models\YashsBookStore.Models.csproj" />
     <ProjectReference Include="..\YashsBookStore.Utility\YashsBookStore.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

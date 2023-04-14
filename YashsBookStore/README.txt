@@ -239,4 +239,27 @@ and saved all the files.
             >I think the problem is with the server side login creaditials.
 
 13th April 2023
+2:30PM
 >Solved the error but now data is not reflacting to the database....
+
+6:00PM
+>working on edit data button but the problem is not solving i cant show the data to the table there is error which is hard to solve but i am pretty sure there would be only minor change to the code
+>i am sticking to it to resolve it, no one can stop me.
+
+6:15PM
+>okay, i have found the error and resolved it . i just needed to add another script library
+        > <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+        >Which i just did and boom!!!
+        now the data is showing me from the table and oh my god i have so many entries to the table. i am glad that it is working....
+        >Now, i am moving forward to update button and delete button.....
+
+7:00PM
+>okay, so Delete button seems not working, It feels like the sweetalert is not working maybe it is not getting enough data from the source.
+>I am googling the problem and will see what happens.
+
+7:26PM
+>It feels like solution was just right in-front of my eyes.
+>the link was already given to the PPT that from the sweetalert was taken
+>i visited the link and saw that we needed to add the sweetalert library before script tag which i just did and now it is working.
+
+>owwwww, Yeah.....

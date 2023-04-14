@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - YashsBookStore</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
 </head>
 <body>
     <header>
@@ -27,7 +28,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="Index">CoverType</a>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
