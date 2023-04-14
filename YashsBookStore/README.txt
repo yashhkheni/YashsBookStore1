@@ -276,3 +276,10 @@ and saved all the files.
     >Now Adding CoverType Controller
     >Added the controller and made the changes in it.
     >Inharited the Index and the upsert files into new CoverType folder which was made for Index.view
+
+12:37PM
+>Now Moving forward to another step adding Product Model.
+>Model Created successfully and now making ref into applicationDbContext
+>Running the command add-migration AddProductToDb
+    >Was Getting an error because i have selected diffrent console.
+    >but the product is now been added to the database.
