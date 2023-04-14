@@ -29,4 +29,8 @@
     <ProjectReference Include="..\YashsBookStore.Utility\YashsBookStore.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>

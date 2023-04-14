@@ -121,7 +121,7 @@ and saved all the files.
 >Stuggling with the error and can not solve it.
 >will do rest of the work tomorrow...
 
-31st March 2023
+                                                                31st March 2023
 9:23AM
 >okay I dont know which error was causing this so i am going to restart the 2.2 REPOSITORY PART AGAIN i have deleted the repository folder and now will create again and will see....
 >Starting just now...
@@ -206,7 +206,7 @@ and saved all the files.
     >Startup.cs Removed the I from the UNITOFWORK
 >Now Commiting the code to the Repository
 
-6th April 2023
+                                                                6th April 2023
 2:05PM
 >Started Further working on project today reviewd the errors and finally i solved it
     the error was actually inside of startup.cs file where we have implemented the line for addscope.
@@ -238,7 +238,7 @@ and saved all the files.
 
             >I think the problem is with the server side login creaditials.
 
-13th April 2023
+                                                                13th April 2023
 2:30PM
 >Solved the error but now data is not reflacting to the database....
 
@@ -264,7 +264,7 @@ and saved all the files.
 
 >owwwww, Yeah.....
 
-14th April 2023
+                                                            14th April 2023
 11:40PM
 >Adding new class Product.cs
 >Last CoverType Has an error will resolve it but before we will move forward to another one for assignment requirements.
