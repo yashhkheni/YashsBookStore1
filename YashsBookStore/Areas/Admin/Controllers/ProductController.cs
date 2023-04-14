@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,6 +7,7 @@ using System.Threading.Tasks;
 using YashsBookStore.DataAccess.Repository;
 using YashsBookStore.DataAccess.Repository.IRepository;
 using YashsBookStore.Models;
+using YashsBookStore.Models.ViewModels;
 
 namespace YashsBookStore.Areas.Admin.Controllers
 {
@@ -22,24 +24,32 @@ namespace YashsBookStore.Areas.Admin.Controllers
         {
             return View();
         }
-        public IActionResult Upsert(Product product)
+        public IActionResult Upsert(int? id)
         {
-            if (ModelState.IsValid)
+            ProductVM productVM = new ProductVM()
             {
-                if (product.Id == 0)
+                Product = new Product(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
                 {
-                    _unitOfWork.Product.Add(product);
-
-                }
-                else
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
                 {
-                    _unitOfWork.Product.Update(product);
-                }
-                _unitOfWork.Save();
-                return RedirectToAction(nameof(Index));
-
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+            };
+            if (id == null)
+            {
+                return View(productVM);
             }
-            return View(product);
+            productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
+            if (productVM.Product == null)
+            {
+                return NotFound();
+            }
+            return View(productVM);
         }
 
 
@@ -47,7 +57,7 @@ namespace YashsBookStore.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll();
+            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category, CoverType");
             return Json(new { data = allObj });
         }
 
