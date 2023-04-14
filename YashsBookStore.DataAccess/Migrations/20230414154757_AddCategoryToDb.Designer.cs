@@ -10,8 +10,8 @@ using YashsBookStore.DataAccess.Data;
 namespace YashsBookStore.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230414000151_AddDefaultIdentityMigration")]
-    partial class AddDefaultIdentityMigration
+    [Migration("20230414154757_AddCategoryToDb")]
+    partial class AddCategoryToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

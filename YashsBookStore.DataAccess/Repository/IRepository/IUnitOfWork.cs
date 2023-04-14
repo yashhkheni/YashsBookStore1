@@ -7,7 +7,7 @@ namespace YashsBookStore.DataAccess.Repository.IRepository
     public interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
-        ICoverTypeRepository Cover { get; }
+        ICoverTypeRepository CoverType { get; }
 
         ISP_Call SP_Call { get; }
 

@@ -1,8 +1,10 @@
-﻿using System.Linq;
-using YashsBookStore.DataAccess.Data;
-using YashsBookStore.DataAccess.Repository;
-using YashsBookStore.DataAccess.Repository.IRepository;
+﻿using YashsBookStore.DataAccess.Repository.IRepository;
 using YashsBookStore.Models;
+using YashsBookStore.DataAccess.Data;
+using System;
+using System.Linq;
+using System.Collections.Generic;
+using System.Text;
 
 namespace YashsBookStore.DataAccess.Repository
 {
@@ -16,7 +18,7 @@ namespace YashsBookStore.DataAccess.Repository
 
         public void Update(CoverType coverType)
         {
-            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == coverType.Id);
+            var objFromDb = _db.CoverTypes.FirstOrDefault(s => s.Id == coverType.Id);
             if (objFromDb != null)
             {
                 objFromDb.Name = coverType.Name;

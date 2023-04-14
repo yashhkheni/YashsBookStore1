@@ -263,3 +263,12 @@ and saved all the files.
 >i visited the link and saw that we needed to add the sweetalert library before script tag which i just did and now it is working.
 
 >owwwww, Yeah.....
+
+14th April 2023
+11:40PM
+>Adding new class Product.cs
+>Last CoverType Has an error will resolve it but before we will move forward to another one for assignment requirements.
+
+11:59PM
+>One thing was bothering me and i was working on previous thing and i think it is getting great.
+>1 and 2 steps are done.
