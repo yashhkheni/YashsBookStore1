@@ -272,3 +272,7 @@ and saved all the files.
 11:59PM
 >One thing was bothering me and i was working on previous thing and i think it is getting great.
 >1 and 2 steps are done.
+    >Added CoverType to NavBar
+    >Now Adding CoverType Controller
+    >Added the controller and made the changes in it.
+    >Inharited the Index and the upsert files into new CoverType folder which was made for Index.view
