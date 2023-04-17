@@ -290,3 +290,10 @@ and saved all the files.
     >Controller Added for produst and repositories as well
     >js also been added
     >Views also been created and navbar link added
+
+
+17th April 2023
+4:30PM
+>Working on product part of the project
+>adding index view and other files related to it.
+>noww commiting the file.
