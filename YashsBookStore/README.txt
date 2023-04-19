@@ -297,3 +297,9 @@ and saved all the files.
 >Working on product part of the project
 >adding index view and other files related to it.
 >noww commiting the file.
+
+AddDefaultIdentityMigration
+AddCategoryToDb
+addValidationToProduct
+AddProductToDb
+AddCoverTypeToDb

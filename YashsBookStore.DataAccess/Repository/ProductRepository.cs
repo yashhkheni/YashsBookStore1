@@ -27,7 +27,7 @@ namespace YashsBookStore.DataAccess.Repository
                 objFromDb.Title = product.Title;
                 objFromDb.Description = product.Description;
                 objFromDb.ISBN = product.ISBN;
-                objFromDb.Auther = product.Auther;
+                objFromDb.Author = product.Author;
                 objFromDb.ListPrice = product.ListPrice;
                 objFromDb.CategoryId = product.CategoryId;
                 objFromDb.CoverTypeId = product.CoverTypeId;

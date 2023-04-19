@@ -2,7 +2,7 @@
 
 namespace YashsBookStore.DataAccess.Migrations
 {
-    public partial class addValidationToProduct : Migration
+    public partial class addProductToDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
