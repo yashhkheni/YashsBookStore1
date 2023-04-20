@@ -301,3 +301,6 @@ and saved all the files.
 20th april 2023
 >2:01PM
 >Today the final part of the project where just minor changes will occur like the cart option and other.
+
+2:12PM
+>Okay, now changes have been made in product.js
