@@ -298,8 +298,6 @@ and saved all the files.
 >adding index view and other files related to it.
 >noww commiting the file.
 
-AddDefaultIdentityMigration
-AddCategoryToDb
-addValidationToProduct
-AddProductToDb
-AddCoverTypeToDb
+20th april 2023
+>2:01PM
+>Today the final part of the project where just minor changes will occur like the cart option and other.
